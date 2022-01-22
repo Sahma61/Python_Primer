@@ -10,6 +10,6 @@ done
 a=$(which git)
 ${a} branch -m main
 ${a} add .
-${a} commit -m "a bash script"
+${a} commit -m "$message"
 ${a} push -u origin main
 
